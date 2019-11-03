@@ -124,10 +124,6 @@ class TodoList{
         statusWrapper.appendChild(deleteLi);
 
         status.addEventListener('click', (event) =>{
-            if (event.target !== event.currentTarget){
-                console.log('hi');
-                statusWrapper.style.display = 'none'
-            }
             statusWrapper.style.display = (statusWrapper.style.display === 'block') ? 'none' : 'block';
         });
         this.doneTodo(doneLi, statusWrapper);
