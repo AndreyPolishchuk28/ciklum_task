@@ -6,8 +6,7 @@ const gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     clean = require('gulp-clean'),
     imagemin = require('gulp-imagemin'),
-    cache = require('gulp-cache'),
-    pngquant = require('imagemin-pngquant');
+    cache = require('gulp-cache')
 
 const path = {
     build: {

@@ -271,9 +271,11 @@ function modalWindow() {
   form.appendChild(wrapperBtn);
   cancelBtn = document.createElement('button');
   cancelBtn.innerHTML = 'Cancel';
+  cancelBtn.type = 'button';
   cancelBtn.className = 'cancel-btn';
   wrapperBtn.appendChild(cancelBtn);
   saveBtn = document.createElement('button');
+  saveBtn.type = 'button';
   saveBtn.innerHTML = 'Save';
   saveBtn.className = 'save-btn';
   wrapperBtn.appendChild(saveBtn);
